@@ -60,7 +60,7 @@ const Calc = () => {
         e.preventDefault();
 
         // const {name, email, phone, work, password, cpassword} = user;
-        fetch("http://localhost:5000/calc", {
+        fetch("https://taxableincome-vidhish.herokuapp.com/calc", {
             method: "post",
             headers: {
                 "Content-Type": "application/json",
